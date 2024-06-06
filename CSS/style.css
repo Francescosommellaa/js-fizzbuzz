@@ -21,3 +21,24 @@ h1 {
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.box {
+    display: flex;
+    align-items: center;
+    width: calc(100% / 7 - 20px);
+    border-radius: 8px;
+    height: 80px;
+    background-color: #1589B1;
+}
+
+.box-fizz {
+    background-color: #0ED6A0;
+}
+
+.box-buzz {
+    background-color: #FFD166;
+}
+
+.box-fizz-buzz {
+    background-color: #F0476F;
+}
